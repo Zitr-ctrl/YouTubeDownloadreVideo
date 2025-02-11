@@ -13,11 +13,13 @@ y necesita tener instara FFMPEG para poder tener el video en un formato correcto
 
 3. Agrega la ruta de la carpeta a las variables de entorno
 
-    Abre el Panel de Control y ve a "Sistema y seguridad" > "Sistema" > "Configuración avanzada del sistema".
+    -Abre el Panel de Control y ve a "Sistema y seguridad" > "Sistema" > "Configuración avanzada del sistema".
 
-    Haz clic en "Variables de entorno".oEn "Variables del sistema", selecciona la variable Pathy haz clic en "Editar".
+    -Haz clic en "Variables de entorno".oEn "Variables del sistema", selecciona la variable Pathy haz clic en "Editar".
     
-    Agrega la ruta completa a la carpeta binde FFmpeg (por ejemplo, C:\ffmpeg\bin).oHaz clic en "Aceptar" para cerrar todas las ventanas
+    -Agrega la ruta completa a la carpeta binde FFmpeg (por ejemplo, C:\ffmpeg\bin).
+    
+    -Haz clic en "Aceptar" para cerrar todas las ventanas
 
 4. Verifica la instlación - Abre una ventana de línea de comandos y escribe ffmpeg -version. Si ves información sobre la versión de FFmpeg, la instalación ha sido exitosa.
 
