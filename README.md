@@ -1,12 +1,12 @@
-#Código para descargar videos de YouTube
+# Código para descargar videos de YouTube
 
-##Pasos a seguir para el uso correcto del código
+## Pasos a seguir para el uso correcto del código
 
-###Consideraciones
+### Consideraciones
 Este código usa Python 3.12.1 
 y necesita tener instara FFMPEG para poder tener el video en un formato correcto
 
-####Pasos para instalar ffmpeg
+#### Pasos para instalar ffmpeg
 1. ve al sitio web y descarga los documentos [Enlace de FFMPEG](https://ffmpeg.org/download.html)
 
 2. Extrae el archivo zip que descargaste del repositorio de github, Copia el contenido extraído (generalmente una carpeta llamada ffmpegcon subcarpetas bin, doc, etc.) a una ubicación conveniente, como C:\ffmpeg.
