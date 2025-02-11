@@ -21,6 +21,15 @@ y necesita tener instara FFMPEG para poder tener el video en un formato correcto
 
 4. Verifica la instlación - Abre una ventana de línea de comandos y escribe ffmpeg -version. Si ves información sobre la versión de FFmpeg, la instalación ha sido exitosa.
 
+#### Instalación y Configuración del Entorno Virtual
+
 Una vez que se haya instalado correctamente ffmpeg podemos seguir con la reación del entorno virtual
 
 Dentro de la carpeta en la que tienes descargado el código del proyecto crea un entorno virtual con el comando: python -m venv env, luego activa el entorno con el comando: env\Scripts\activate, luego instala las dependencias necesarias en el enotrno virtual con el comando: pip install -r requirementes.txt, una vez hecho eso ya peudes ejecutar el código
+
+### Uso del Código
+
+Una vez lo ejecutes en la consola te pedirá que pegues el link del video que deseas descargar, este video se descargará en la mejor calidad promedio en formato MP4 en la carpeta acutal en la que ejecutes el programa
+
+### Nota
+Estaré mejorando este código con más opciones y funciones en un futuro
